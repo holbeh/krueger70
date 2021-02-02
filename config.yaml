@@ -1,0 +1,131 @@
+baseURL: http://events.unterbachersee.de
+languageCode: de
+title: Events
+theme: hugo-fresh
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy 
+  description: 
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/Logo_US_4c.tiff
+    link: /
+  font:
+    name: "TitilliumWeb-Regular.ttf"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Gerds 70. Geburtstag
+    # Hero subtitle (optional)
+    subtitle: Online-Geburtstagsfeier
+    # Button text
+    buttontext: Hier starten
+    # Where the main hero button links to
+    buttonlink: https://world.event.unterbachersee.de
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    
+  # Customizable navbar. For a dropdown, add a "sublinks" list
+  navbar:
+  - title: Kurzanleitung
+    url: /anleitung
+  - title: Impressum/Datenschutz
+    url: /impressum
+  - title: Event besuchen
+    url: https://world.event.unterbachersee.de
+    button: true
+  section1:
+    title: Geburtstagsfeier im Überblick
+    subtitle: 
+    tiles:
+    - title: Geburtstagswelt 
+      icon: mouse-globe
+      text: Ihr erkennt es bestimmt - wir feiern bei uns eine Garten- und Hausparty.
+      url: https://world.event.unterbachersee.de
+      buttonText: hier starten
+    - title: Wohnzimmertrisch
+      icon: laptop-cloud
+      text: Solltest Du unser Welt nicht besuchen können kannst Du hier direkt mit an unseren Wohnzimmertisch kommen.
+      url: https://communicate.unterbachersee.de/wohnzimmer
+      buttonText: Wohnzimmertisch 
+    - title: Nichts funktioniert?
+      icon: haeh
+      text: Wenn so garnichts geht, dann sende uns eine Email (gerne auch mit Telefonnummer) - wir versuchen alles...
+      url: mailto:holger@wass-er.com
+      buttonText: Email-Frage
+
+  section2:
+    title: Wie funktioniert unsere vituelle Geburtstagsfeier?
+    subtitle: Eine Hilfestellung!
+    features:
+    - title: Geburtstagswelt
+      
+      text: Wir haben für uns eine vituelle Geburtstagsfeier mit viel sozialem Charakter kreiert. Wenn Du in unsere Welt kommst musst Du bitte zuerst Deinen Namen angeben und Dir ein "Männchen" bauen. Dann geht es auch schon los. Du bewegst Dich mit den Pfeiltasten auf Deiner Tastatur. Immer, wenn wir uns treffen können wir zusammen unterhalten und sehen (dafür brauchen wir natürlich ein Mikrofon, eine Kamera und ein Lautsprecher / Kopfhörer). [Weitere informationen findet Ihr hier](/anleitung)
+      buttonText: Anleitung
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: mouse-globe
+    - title: Wohnzimmertisch
+      text: Leider kann man an unserer Wohnzimmmerwelt nur mit einem Gerät, welches über eine Tastatur verfügt, teilnehmen. Sollte bei Dir garnichts funktionieren, dann triffst Du auch immer einige von uns an unserem "Wohnzimmertisch". Dieser direkte Zugang funktioniert auch auf Smartphones etc. - bietet aber nicht alles, was wir vorbereitet haben. 
+      icon: laptop-cloud
+
+  # section3:
+  #   title: One platform
+  #   subtitle: To rule them all
+  #   image: illustrations/mockups/app-mockup.png
+  #   buttonText: Get started
+  #   buttonLink: "#"
+  # section4:
+  #   title: Our Clients love us!
+  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #   - name: Irma Walters
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Accountant
+  #     img: 1
+  #   - name: John Bradley
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Financial Analyst
+  #     img: 2
+  #   - name: Gary Blackman
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: HR Manager
+  #     img: 3
+ # section5: true
+  footer:
+    # Logo (from /images/logos/___)
+    logo: Logo+Slogan_US_HKS Kopie_OhneFreizeit.pdf
+
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "Informationen"
+        links:
+        - text: FAQs
+          link: /faq
+        - text: Datenschutz
+          link: /impressum
+        - text: Impressum
+          link: /impressum
+      column2:
+        title: "Anleitungen"
+        links:
+        - text: Geburtstagswelt
+          link: /anleitung
+        #- text: offizieller Teil
+        #  link: /
+      column3:
+        title: "Hilfestellung"
+        links:
+        - text: Email-Hilfe
+          link: mailto:holger@wass-er.com
+
