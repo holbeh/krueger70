@@ -4,7 +4,7 @@ date: 2021-01-28T18:24:15+01:00
 draft: false
 ---
 
-Wie wird die Plattfrom genutzt?
+Wie wird die Plattform genutzt?
 ===
 
 Dieses Tutorial soll einen kurzen Überblick und Empfehlungen für eine interessante EventPlatfform-Erfahrung bieten.
@@ -23,7 +23,7 @@ Wir behalten uns vor Teilnehmer:innen, die sich nicht entsprechend verhalten, zu
 
 Ihr braucht einen Computer oder mindestens ein Gerät mit physischer Tastatur. Ein Tablet mit Tastatur scheint zu funktionieren.
 
-Da die Event-Plattform ein interaktives Multiplayer-Erlebnis ist, werden Kamera und Mikrofon empfohlen. Ihr braucht sie aber nicht zwingend um teilzunehmen, Interaktionen mit anderen werden ohne aber sehr langweilig sein.
+Da die Event-Plattform ein interaktives Multiplayer-Erlebnis ist, werden Kamera und Mikrofon empfohlen. Ihr braucht sie aber nicht zwingend um teilzunehmen, Interaktionen mit anderen werden ohne sehr langweilig sein.
 
 ### Browser
 

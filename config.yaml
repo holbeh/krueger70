@@ -1,4 +1,4 @@
-baseURL: https://krueger70.trudeltiere.de
+baseURL: https://gerry70.trudeltiere.de
 languageCode: de
 title: Events
 theme: hugo-fresh
@@ -24,7 +24,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Gerds 70. Geburtstag
+    title: Gerrys 70. Geburtstag
     # Hero subtitle (optional)
     subtitle: Online-Geburtstagsfeier
     # Button text
@@ -53,14 +53,14 @@ params:
       text: Ihr erkennt es bestimmt - wir feiern bei uns eine Garten- und Hausparty.
       url: https://world.event.unterbachersee.de
       buttonText: hier starten
-    - title: Wohnzimmertrisch
+    - title: Wohnzimmertisch
       icon: laptop-cloud
-      text: Solltest Du unser Welt nicht besuchen können kannst Du hier direkt mit an unseren Wohnzimmertisch kommen.
+      text: Solltest Du unsere Welt nicht besuchen können kannst Du Dich hier direkt mit an unseren Wohnzimmertisch setzen.
       url: https://communicate.unterbachersee.de/wohnzimmer
       buttonText: Wohnzimmertisch 
     - title: Nichts funktioniert?
       icon: ../../logos/haeh
-      text: Wenn so garnichts geht, dann sende uns eine Email (gerne auch mit Telefonnummer) - wir versuchen alles...
+      text: Wenn so gar nichts geht, dann sende uns eine Email (gerne auch mit Telefonnummer) - wir versuchen alles...
       url: mailto:holger@wass-er.com
       buttonText: Email-Frage
 
@@ -70,12 +70,12 @@ params:
     features:
     - title: Geburtstagswelt
       
-      text: Wir haben für uns eine vituelle Geburtstagsfeier mit viel sozialem Charakter kreiert. Wenn Du in unsere Welt kommst musst Du bitte zuerst Deinen Namen angeben und Dir ein "Männchen" bauen. Dann geht es auch schon los. Du bewegst Dich mit den Pfeiltasten auf Deiner Tastatur. Immer, wenn wir uns treffen können wir zusammen unterhalten und sehen (dafür brauchen wir natürlich ein Mikrofon, eine Kamera und ein Lautsprecher / Kopfhörer). [Weitere informationen findet Ihr hier](/anleitung)
+      text: Wir haben für Gerry eine vituelle Geburtstagsfeier mit viel sozialem Charakter kreiert. Wenn Du in unsere Welt kommst musst Du bitte zuerst Deinen Namen angeben und Dir ein "Männchen" bauen. Dann geht es auch schon los. Du bewegst Dich mit den Pfeiltasten auf Deiner Tastatur. Immer, wenn wir uns treffen können wir zusammen unterhalten und sehen (dafür brauchen wir natürlich ein Mikrofon, eine Kamera und ein Lautsprecher / Kopfhörer). [Weitere informationen findet Ihr hier](/anleitung)
       buttonText: Anleitung
       # Icon (from /images/illustrations/icons/___.svg)
       icon: mouse-globe
     - title: Wohnzimmertisch
-      text: Leider kann man an unserer Wohnzimmmerwelt nur mit einem Gerät, welches über eine Tastatur verfügt, teilnehmen. Sollte bei Dir garnichts funktionieren, dann triffst Du auch immer einige von uns an unserem "Wohnzimmertisch". Dieser direkte Zugang funktioniert auch auf Smartphones etc. - bietet aber nicht alles, was wir vorbereitet haben. 
+      text: Leider kann man an unserer Geburtstagswelt nur mit einem Gerät, welches über eine Tastatur verfügt, teilnehmen. Sollte bei Dir gar nichts funktionieren, dann triffst Du auch immer einige von uns an unserem "Wohnzimmertisch". Dieser direkte Zugang funktioniert auch auf Smartphones etc. - bietet aber nicht alles, was wir vorbereitet haben. 
       icon: laptop-cloud
 
   # section3:
