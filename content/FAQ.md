@@ -26,4 +26,6 @@ Du musst keine Software installieren! Du solltest einen aktuellen Brwoser (am Be
 
 Leider ist in der aktuellen Big Sur Version auf Intel-Prozessoren ein Fehler, der zu diesen Abstürzen führen kann. Wir hoffen das Apple diesen Fehler schnellstmöglich behebt. Apple ist über den Fehler informiert.
 
-tbc
+***Ich weiß nicht so recht was ich tun soll ...***
+
+Finn Behrens hilft Dir heute gerne weiter - schriebe ihm eine Email unter <a href="mailto:kloenk@kloenk.dev">kloenk@kloenk.dev</a>. Wenn Du ihm Deine Telefonnummer mitteilst ruft er Dich auch gerne an um Dir weiterzuhelfen.

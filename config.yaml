@@ -17,7 +17,7 @@ params:
   description: 
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/Logo_US_4c.tiff
+    image: logos/volvo.png
     link: /
   font:
     name: "TitilliumWeb-Regular.ttf"
@@ -127,5 +127,5 @@ params:
         title: "Hilfestellung"
         links:
         - text: Email-Hilfe
-          link: mailto:holger@wass-er.com
+          link: mailto:kloenk@kloenk.devcd ..
 
