@@ -28,4 +28,4 @@ Leider ist in der aktuellen Big Sur Version auf Intel-Prozessoren ein Fehler, de
 
 ***Ich weiß nicht so recht was ich tun soll ...***
 
-Finn Behrens hilft Dir heute gerne weiter - schriebe ihm eine Email unter <a href="mailto:kloenk@kloenk.dev">kloenk@kloenk.dev</a>. Wenn Du ihm Deine Telefonnummer mitteilst ruft er Dich auch gerne an um Dir weiterzuhelfen.
+Finn Behrens hilft Dir heute gerne weiter - schriebe ihm eine Email unter <a href="mailto:gerry70@kloenk.dev">gerry70@kloenk.dev</a>. Wenn Du ihm Deine Telefonnummer mitteilst ruft er Dich auch gerne an um Dir weiterzuhelfen.

@@ -6,7 +6,7 @@ draft: false
 
 ## Kontakt 
 
-Bei technischen Problemen bitte <a href="mailto:service@unterbachersee.de">service@unterbachersee.de</a> kontaktieren.
+Bei technischen Problemen bitte <a href="mailto:holger.behrens@unterbachersee.de">service@unterbachersee.de</a> kontaktieren.
 
 ## Impressum
 Verantwortlich für dieses Angebot ist gemäß § 5 TMG / § 55 RStV sowie Art. 4 Nr. 7 DSGVO der Zweckverband Erholungsgebiet Unterbacher See (im folgenden "Zweckverband" genannt):
@@ -17,7 +17,7 @@ Email: service.unterbachersee.de
 Geschäftsführer: Peter von Rappard
 
 
-Kontakt zum Datenschutzbeauftragten: `datenschutz@cunterbachersee.de`
+Kontakt zum Datenschutzbeauftragten: `datenschutz@unterbachersee.de`
 
 
 
