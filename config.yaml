@@ -62,7 +62,7 @@ params:
     - title: Nichts funktioniert?
       icon: ../../logos/haeh
       text: Wenn so gar nichts geht, dann sende uns eine Email (gerne auch mit Telefonnummer) - wir versuchen alles...
-      url: mailto:kloenk@kloenk.dev
+      url: mailto:gerry70@kloenk.dev
       buttonText: Email-Frage
 
   section2:

@@ -62,6 +62,6 @@ Falls Ihr das Feature nicht nutzen wollt, könnt Ihr es im Hub deaktivieren.
 
 ## Ich sehe keine Karte / 404 / schwarzer Bildschirm
 
-Bitte checkt Eure AddOns und Script-Blocker und gebt *.unterbachersee.de frei. Falls das nicht hilft, könnt Ihr einen Blick in die Dev-Tools Eures Browsers werfen und dort nach Fehlern schauen. Wenn Ihr Hilfe benötigt wendet Euch bitte an <a href="mailto:kloenk@kloenk.dev">Finn Behrens</a>, der für Euch heute den Service übernimmt.
+Bitte checkt Eure AddOns und Script-Blocker und gebt *.unterbachersee.de frei. Falls das nicht hilft, könnt Ihr einen Blick in die Dev-Tools Eures Browsers werfen und dort nach Fehlern schauen. Wenn Ihr Hilfe benötigt wendet Euch bitte an <a href="mailto:gerry70@kloenk.dev">Finn Behrens</a>, der für Euch heute den Service übernimmt.
 
 
