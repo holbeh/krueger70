@@ -14,7 +14,7 @@ Dieses Tutorial soll einen kurzen Überblick und Empfehlungen für eine interess
 
 Bitte verhaltet Euch freundlich gegenüber anderen Teilnehmer:innen. Die Software für die Welt ist neu und kann entsprechend noch Bugs enthalten. 
 
-Wir behalten uns vor Teilnehmer:innen, die sich nicht entsprechend verhalten, zu bannen.
+Wir behalten uns vor Teilnehmer*innen, die sich nicht entsprechend verhalten, zu bannen.
 
 
 ## Empfehlungen
@@ -43,7 +43,7 @@ Die Event-Plattform besteht aus verschiedenen Karten, die interaktive Elemente w
 
 ### Webseiten und Jitsi-Räume
 
-Webseiten und Jitsi-Räume öffnen sich in einem Overlay über die rechte Hälfte des Bildschirms. Für externe Webseiten schalten wir einen Dereferrer vor, der euch um Erlaubnis fragt.  <!---Wenn Ihr nicht jedes Mal gefragt werden wollt, könnt Ihr den "Erinnere mich in 10 Minuten"-Button nutzen.--->
+Webseiten und Jitsi-Räume öffnen sich in einem Overlay über die rechte Hälfte des Bildschirms. Für externe Webseiten schalten wir einen Dereferrer vor, der euch um Erlaubnis fragt. 
 
 ### Audio
 
@@ -62,6 +62,6 @@ Falls Ihr das Feature nicht nutzen wollt, könnt Ihr es im Hub deaktivieren.
 
 ## Ich sehe keine Karte / 404 / schwarzer Bildschirm
 
-Bitte checkt Eure AddOns und Script-Blocker und gebt *.unterbachersee.de frei. Falls das nicht hilft, könnt Ihr einen Blick in die Dev-Tools Eures Browsers werfen und dort nach Fehlern schauen.
+Bitte checkt Eure AddOns und Script-Blocker und gebt *.unterbachersee.de frei. Falls das nicht hilft, könnt Ihr einen Blick in die Dev-Tools Eures Browsers werfen und dort nach Fehlern schauen. Wenn Ihr Hilfe benötigt wendet Euch bitte an <a href="mailto:kloenk@kloenk.dev">Finn Behrens</a>, der für Euch heute den Service übernimmt.
 
 

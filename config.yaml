@@ -30,7 +30,7 @@ params:
     # Button text
     buttontext: Hier starten
     # Where the main hero button links to
-    buttonlink: https://world.event.unterbachersee.de/_/global/https://gerry70.trudeltiere.de/map/krueger.json
+    buttonlink: /geduld
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -42,7 +42,7 @@ params:
   - title: Impressum/Datenschutz
     url: /impressum
   - title: Event besuchen
-    url: https://world.event.unterbachersee.de/_/global/https://gerry70.trudeltiere.de/map/krueger.json
+    url: /geduld
     button: true
   section1:
     title: Geburtstagsfeier im Überblick
@@ -51,7 +51,8 @@ params:
     - title: Geburtstagswelt 
       icon: mouse-globe
       text: Ihr erkennt es bestimmt - wir feiern bei uns eine Garten- und Hausparty.
-      url: https://world.event.unterbachersee.de/_/global/https://gerry70.trudeltiere.de/map/krueger.json
+      url: /geduld
+      
       buttonText: hier starten
     - title: Wohnzimmertisch
       icon: laptop-cloud
@@ -61,7 +62,7 @@ params:
     - title: Nichts funktioniert?
       icon: ../../logos/haeh
       text: Wenn so gar nichts geht, dann sende uns eine Email (gerne auch mit Telefonnummer) - wir versuchen alles...
-      url: mailto:holger@wass-er.com
+      url: mailto:kloenk@kloenk.dev
       buttonText: Email-Frage
 
   section2:
@@ -70,12 +71,12 @@ params:
     features:
     - title: Geburtstagswelt
       
-      text: Wir haben für Gerry eine vituelle Geburtstagsfeier mit viel sozialem Charakter kreiert. Wenn Du in unsere Welt kommst musst Du bitte zuerst Deinen Namen angeben und Dir ein "Männchen" bauen. Dann geht es auch schon los. Du bewegst Dich mit den Pfeiltasten auf Deiner Tastatur. Immer, wenn wir uns treffen können wir zusammen unterhalten und sehen (dafür brauchen wir natürlich ein Mikrofon, eine Kamera und ein Lautsprecher / Kopfhörer). [Weitere informationen findet Ihr hier](/anleitung)
+      text: Wir haben für Gerry eine vituelle Geburtstagsfeier mit einer Geburtstagswelt gebaut. [Weitere informationen findet Ihr hier](/anleitung)
       buttonText: Anleitung
       # Icon (from /images/illustrations/icons/___.svg)
       icon: mouse-globe
     - title: Wohnzimmertisch
-      text: Leider kann man an unserer Geburtstagswelt nur mit einem Gerät, welches über eine Tastatur verfügt, teilnehmen. Sollte bei Dir gar nichts funktionieren, dann triffst Du auch immer einige von uns an unserem "Wohnzimmertisch". Dieser direkte Zugang funktioniert auch auf Smartphones etc. - bietet aber nicht alles, was wir vorbereitet haben. 
+      text: Leider kann man an unserer Geburtstagswelt nur mit einem Gerät, welches über eine Tastatur verfügt, teilnehmen. Sollte bei Dir gar nichts funktionieren, dann triffst Du auch immer einige von uns an unserem "Wohnzimmertisch". Dieser direkte Zugang funktioniert auch auf Smartphones etc. - bietet aber nicht alles, was wir vorbereitet haben. [hier der direkte Zugang zum Wohnzimmertisch](https://communicate.unterbachersee.de/wohnzimmer)
       icon: laptop-cloud
 
   # section3:
