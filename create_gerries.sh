@@ -14,7 +14,7 @@ date: $(date -u +"%Y-%m-%dT%H:%M:%S+00:00")
 draft: false
 ---
 
-![gerry$x](/images/$(basename "$f" | sed 's/ /%20/g'))
+![gerry$x](/images/$(basename "$f" | sed 's/ /%20/g' | sed 's/?/%3F/g'))
 
 EOF
 
