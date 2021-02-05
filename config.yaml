@@ -30,7 +30,7 @@ params:
     # Button text
     buttontext: Hier starten
     # Where the main hero button links to
-    buttonlink: https://world.event.unterbachersee.de
+    buttonlink: https://world.event.unterbachersee.de/_/global/https://gerry70.trudeltiere.de/map/krueger.json
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -42,7 +42,7 @@ params:
   - title: Impressum/Datenschutz
     url: /impressum
   - title: Event besuchen
-    url: https://world.event.unterbachersee.de
+    url: https://world.event.unterbachersee.de/_/global/https://gerry70.trudeltiere.de/map/krueger.json
     button: true
   section1:
     title: Geburtstagsfeier im Überblick
@@ -51,7 +51,7 @@ params:
     - title: Geburtstagswelt 
       icon: mouse-globe
       text: Ihr erkennt es bestimmt - wir feiern bei uns eine Garten- und Hausparty.
-      url: https://world.event.unterbachersee.de
+      url: https://world.event.unterbachersee.de/_/global/https://gerry70.trudeltiere.de/map/krueger.json
       buttonText: hier starten
     - title: Wohnzimmertisch
       icon: laptop-cloud
