@@ -1,0 +1,25 @@
+From 0a93661ace30779f7048048cdf47513b286915c0 Mon Sep 17 00:00:00 2001
+From: Finn Behrens <me@kloenk.de>
+Date: Fri, 5 Feb 2021 22:36:37 +0100
+Subject: [PATCH] fix font path
+
+---
+ layouts/partials/css.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/layouts/partials/css.html b/layouts/partials/css.html
+index e941ba1..ecd4e56 100644
+--- a/layouts/partials/css.html
++++ b/layouts/partials/css.html
+@@ -5,7 +5,7 @@
+ {{- $fontName     := .Site.Params.font.name | default "Open Sans" }}
+ {{- $fontFace     := replace $fontName " " "+" }}
+ {{- $fontSizes    := delimit (.Site.Params.font.sizes | default (slice 300 400 600 700)) "," }}
+-{{- $fontUrl      := printf "https://fonts.googleapis.com/css?family=%s:%s" $fontFace $fontSizes }}
++{{- $fontUrl      := printf "/TitilliumWeb-Regular.ttf" }}
+ <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}" />
+ <link href="{{ $fontUrl }}" rel="stylesheet">
+ {{- if $inServerMode }}
+-- 
+2.30.0
+

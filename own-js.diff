@@ -1,0 +1,26 @@
+From 1dfc9d83bd05d75e9cced8c222cd323b24c82cfa Mon Sep 17 00:00:00 2001
+From: Finn Behrens <me@kloenk.de>
+Date: Fri, 5 Feb 2021 22:26:22 +0100
+Subject: [PATCH] use local js libs
+
+---
+ layouts/partials/javascript.html | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/layouts/partials/javascript.html b/layouts/partials/javascript.html
+index 05b93cf..8802836 100644
+--- a/layouts/partials/javascript.html
++++ b/layouts/partials/javascript.html
+@@ -1,5 +1,5 @@
+-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+-<script src="https://unpkg.com/feather-icons"></script>
++<script src="/jquery.min.js"></script>
++<script src="/feather-icons"></script>
+ <script src="{{ "js/fresh.js" | relURL }}"></script>
+ <script src="{{ "js/jquery.panelslider.min.js" | relURL }}"></script>
+-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+\ No newline at end of file
++<script src="/modernizr.min.js"></script>
+-- 
+2.30.0
+

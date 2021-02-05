@@ -20,17 +20,22 @@
       });
   in {
     overlay = final: prev: {
-      hugo-fresh = final.runCommand "hugo-fresh" {
+      hugo-fresh = final.stdenv.mkDerivation {
+        name = "hugo-fresh";
         src = final.fetchFromGitHub {
           owner = "StefMa";
           repo = "hugo-fresh";
           rev = "6b7327731336dd250a5deb54f56b0a364ae68ced";
           sha256 = "1srynd324aqnxd54r4szmnbym8g7yd986ra6blg8zw6qkbzgabzx";
         };
-      } ''
-          cp -r "$src" "$out"
+        patches = [ ./own-js.diff ./font.diff ];
+
+        installPhase = ''
+          mkdir -p $out
+          cp -r * "$out"
           chmod -R u+w $out
         '';
+      };
 
       krueger70 = let
         themes = [ final.hugo-fresh ];
@@ -43,32 +48,25 @@
             echo "installing theme ${theme.name}"
             ln -s ${theme} themes/${theme.name}
           '') themes)}
+
+          cp ${final.google-fonts}/share/fonts/truetype/TitilliumWeb-Regular.ttf static/
         '';
         buildPhase = "${final.hugo}/bin/hugo";
         installPhase = ''
           cp -r public/ "$out"
         '';
       };
-      /*krueger70 = final.runCommand "krueger70" {
-        src = self;
-        themes = [ final.hugo-fresh ];
-
-      } ''
-          ${final.lib.concatStringsSep "\n" (final.lib.mapAttrsToList (name: theme: ''
-            echo "installing theme ${name}"
-            ln -s ${theme} themes/${name}
-          '') themes)}
-          ${final.lib.concatStringsSep "\n" (final.lib.mapAttrsToList (name: theme: ''
-            echo "installing theme ${name}"
-            ln -s ${theme} themes/${name}
-          '') themes)}
-
-
-          for "$theme" in "$themes"; do
-            echo "installing theme $theme.name"
-          done
-        '';*/
     };
+
+    devShell = forAllSystems (system: let pkgs = nixpkgsFor.${system}; in pkgs.mkShell {
+      nativeBuildInputs = [ pkgs.hugo ];
+
+      shellHook = ''
+        echo installing theme dir
+        mkdir themes
+        ln -s ${pkgs.hugo-fresh} themes/hugo-fresh
+      '';
+    });
 
     legacyPackages = forAllSystems (system: nixpkgsFor.${system});
 
