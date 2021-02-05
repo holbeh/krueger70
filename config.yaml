@@ -103,7 +103,7 @@ params:
  # section5: true
   footer:
     # Logo (from /images/logos/___)
-    logo: Logo+Slogan_US_HKS Kopie_OhneFreizeit.pdf
+    logo: volvo.png
 
     bulmalogo: false
     quicklinks:
