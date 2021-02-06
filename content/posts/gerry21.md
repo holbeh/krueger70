@@ -1,8 +1,8 @@
 ---
 title: gerry21
-date: 2021-02-05T20:19:56+00:00
+date: 2021-02-06T10:39:07+00:00
 draft: false
 ---
 
-![gerry21](/images/2003%20011.jpg)
+![gerry21](/images/2002%20017.jpg)
 

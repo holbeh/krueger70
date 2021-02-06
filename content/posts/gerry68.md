@@ -1,8 +1,8 @@
 ---
 title: gerry68
-date: 2021-02-05T20:19:56+00:00
+date: 2021-02-06T10:39:07+00:00
 draft: false
 ---
 
-![gerry68](/images/Bildschirmfoto%202021-02-05%20um%2020.08.05.png)
+![gerry68](/images/2020.JPG)
 
